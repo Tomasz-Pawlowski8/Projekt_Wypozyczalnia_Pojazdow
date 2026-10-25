@@ -1,0 +1,46 @@
+@import url("./style.css");
+
+main{
+    height: 100%;
+}
+p{
+    text-align: center;
+}
+.wyszukiwarka{
+    padding-top: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typ, .marka, .model{
+    margin: 0px 30px;
+    align-items: center;
+    justify-content: center;
+}
+.oferta{
+    padding-top: 30px;
+}
+.wyniki{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.auto{
+    background-color: white;
+    width: 350px;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    margin: 20px auto;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+.auto p{
+    color: blue;
+}
+.auto img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
